@@ -1,0 +1,5 @@
+D:\Documents\~Projects\Project Aerial\Astronaut\bin\Debug\Astronaut.dll
+D:\Documents\~Projects\Project Aerial\Astronaut\bin\Debug\Astronaut.pdb
+D:\Documents\~Projects\Project Aerial\Astronaut\obj\Debug\Astronaut.csprojAssemblyReference.cache
+D:\Documents\~Projects\Project Aerial\Astronaut\obj\Debug\Astronaut.dll
+D:\Documents\~Projects\Project Aerial\Astronaut\obj\Debug\Astronaut.pdb
