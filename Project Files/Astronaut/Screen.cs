@@ -62,8 +62,10 @@ namespace Astro {
 			if (windowSize.HasValue) ScreenSize = windowSize.Value;
 			else ScreenSize = new Point(1280, 720);
 
+			// save the window size
 			WindowSize = ScreenSize;
 
+			// finish by setting the fullscreen and updating the transformation matrix
 			ToggleFullscreen(isFullscren);
 			UpdateTransform();
 		}
