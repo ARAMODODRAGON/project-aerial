@@ -1,4 +1,4 @@
-# project-aerial
+# Project Aerial
  
 Project Aerial is a Touhou inspired bullet hell shooter made in monogame. 
 
