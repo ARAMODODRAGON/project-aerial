@@ -7,9 +7,6 @@ namespace Astro {
 		public const float RADTODEG = 57.295779513082320876798154814105f;
 		public const float DEGTORAD = 0.01745329251994329576923690768489f;
 		public const float PI = 3.1415926535897932384626433832795f;
-		public const double DBLRADTODEG = 57.295779513082320876798154814105d;
-		public const double DBLDEGTORAD = 0.01745329251994329576923690768489d;
-		public const double DBLPI = 3.1415926535897932384626433832795d;
 		private const float VERYSMALL = 0.00001f;
 
 		// Angle to coordinate convertions

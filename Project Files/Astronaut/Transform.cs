@@ -3,7 +3,7 @@
 namespace Astro {
 	class Transform {
 		// reference to entity
-		public readonly Entity entity;
+		public Entity entity { get; private set; }
 
 		// world space data
 		public Vector2 position;
@@ -15,9 +15,9 @@ namespace Astro {
 			set => RotInDeg = value * BMath.RADTODEG;
 		}
 
-		public Transform(Entity entity) {
+		public Transform(Entity e) {
 			// set entity
-			this.entity = entity;
+			entity = e;
 
 			// set world space data
 			position = Vector2.Zero;

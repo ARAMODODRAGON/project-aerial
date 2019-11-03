@@ -46,15 +46,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BMath.cs" />
+    <Compile Include="CircleCollider.cs" />
+    <Compile Include="Collider.cs" />
+    <Compile Include="CollisionFactory.cs" />
     <Compile Include="ContentLoader.cs" />
     <Compile Include="Debug.cs" />
     <Compile Include="Entity.cs" />
+    <Compile Include="EntityCollider.cs" />
     <Compile Include="PointExtention.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Radial.cs" />
     <Compile Include="Screen.cs" />
     <Compile Include="Time.cs" />
+    <Compile Include="Transform.cs" />
     <Compile Include="Vector2Extention.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
