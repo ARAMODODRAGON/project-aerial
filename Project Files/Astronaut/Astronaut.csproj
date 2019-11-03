@@ -53,6 +53,7 @@
     <Compile Include="Debug.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="EntityCollider.cs" />
+    <Compile Include="LayerMask.cs" />
     <Compile Include="PointExtention.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Radial.cs" />

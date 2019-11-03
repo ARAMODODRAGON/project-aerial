@@ -28,7 +28,7 @@ namespace Astro {
 
 		}
 
-		// static functions used to add colliders to the loop
+		// static functions used to manage colliders in the lists
 
 		public static void AddCollider(Collider col) {
 			if (col is CircleCollider c) {
@@ -47,7 +47,7 @@ namespace Astro {
 			if (col is CircleCollider c) {
 				// find and remove the collider in the list
 				if (!Singleton.eCircleList.Remove(c))
-					Debug.ErrorLog("Collider was not in list");
+					Debug.ErrorLog("Collider was not in list"); // if it fails
 			} else {
 				Debug.ErrorLog("Collider of type " + col.GetType() + " is not supported");
 			}
