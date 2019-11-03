@@ -46,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BMath.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="BulletObject.cs" />
+    <Compile Include="BulletObjectCollider.cs" />
     <Compile Include="CircleCollider.cs" />
     <Compile Include="Collider.cs" />
     <Compile Include="CollisionFactory.cs" />

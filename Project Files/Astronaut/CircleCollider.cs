@@ -3,6 +3,7 @@
 namespace Astro {
 	class CircleCollider : EntityCollider {
 		/// Inherited:
+		/// public LayerMask layerMask
 		/// public Transform transform
 		/// public Vector2 pivot
 

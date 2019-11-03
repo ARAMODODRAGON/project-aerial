@@ -1,12 +1,13 @@
 ﻿
+
 namespace Astro {
 	abstract class Collider {
-		public Transform transform { get; private set; }
-		public LayerMask layerMask { get; private set; }
+		// fields
+		public LayerMask layerMask;
 
-		public Collider(Transform t) {
-			transform = t;
+		public Collider() {
 			layerMask = new LayerMask(false);
+			
 		}
 
 	}
