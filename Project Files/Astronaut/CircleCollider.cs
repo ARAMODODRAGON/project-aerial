@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Astro {
-	class CircleCollider : EntityCollider {
+	public class CircleCollider : EntityCollider {
 		/// Inherited:
 		/// public LayerMask layerMask
 		/// public Transform transform

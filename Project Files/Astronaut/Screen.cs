@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Astro {
-	class Screen {
+	public class Screen {
 		private static Screen Singleton { get; set; }
 
 		// graphics

@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Astro {
-	static class Debug {
+	public static class Debug {
 
 
 		/// <summary> Prints to the console </summary>

@@ -2,7 +2,7 @@
 
 namespace Astro {
 	/// Used for bullet math
-	struct Radial {
+	public struct Radial {
 		// Static readonly
 		/// <summary> Shorthand for Radial(270) </summary>
 		public static readonly Radial UP;

@@ -2,7 +2,7 @@
 using System.Collections;
 
 namespace Astro {
-	class CollisionFactory {
+	public class CollisionFactory {
 		// Singleton
 		public static CollisionFactory Singleton { get; private set; }
 

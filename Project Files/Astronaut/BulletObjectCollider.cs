@@ -1,7 +1,7 @@
 ﻿
 
 namespace Astro {
-	class BulletObjectCollider : Collider {
+	public class BulletObjectCollider : Collider {
 		/// Inherited:
 		/// public LayerMask layerMask
 		

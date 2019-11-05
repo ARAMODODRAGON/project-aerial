@@ -1,7 +1,7 @@
 ﻿
 
 namespace Astro {
-	abstract class Collider {
+	public abstract class Collider {
 		// fields
 		public LayerMask layerMask;
 

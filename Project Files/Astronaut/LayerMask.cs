@@ -1,7 +1,7 @@
 ﻿
 
 namespace Astro {
-	struct LayerMask {
+	public struct LayerMask {
 		private bool L0;
 		private bool L1;
 		private bool L2;

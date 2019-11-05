@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Astro {
-	class Transform {
+	public class Transform {
 		// reference to entity
 		public Entity entity { get; private set; }
 

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Astro {
-	abstract class EntityCollider : Collider {
+	public abstract class EntityCollider : Collider {
 		/// Inherited:
 		/// public LayerMask layerMask
 		

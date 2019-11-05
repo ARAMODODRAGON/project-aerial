@@ -2,7 +2,7 @@
 
 
 namespace Astro {
-	static class BMath {
+	public static class BMath {
 		// Constants
 		public const float RADTODEG = 57.295779513082320876798154814105f;
 		public const float DEGTORAD = 0.01745329251994329576923690768489f;
@@ -70,7 +70,6 @@ namespace Astro {
 
 		// Equals
 
-
 		/// <summary>
 		/// If two numbers are close to being equal then it returns true
 		/// </summary>
@@ -78,8 +77,19 @@ namespace Astro {
 		/// <param name="num2"> The second number to compare </param>
 		/// <param name="percision"> The maximum distance between the two numbers </param>
 		/// <returns></returns>
-		public static bool NearlyEqual(float num1, float num2, float percision = 0.01f) {
+		public static bool NearlyEqual(float num1, float num2, float percision = 0.1f) {
 			return System.Math.Abs(num1 - num2) <= percision;
+		}
+		
+		/// <summary>
+		/// If two numbers are close to being equal then it returns true
+		/// </summary>
+		/// <param name="vecA"> The first vector to compare </param>
+		/// <param name="vecB"> The second vector to compare </param>
+		/// <param name="percision"> The maximum distance between the two numbers </param>
+		/// <returns></returns>
+		public static bool NearlyEqual(Vector2 vecA, Vector2 vecB, float percision = 0.1f) {
+			return System.Math.Abs(vecA.X - vecB.X) <= percision && System.Math.Abs(vecA.Y - vecB.Y) <= percision;
 		}
 	}
 }

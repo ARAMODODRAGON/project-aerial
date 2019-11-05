@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Astro {
-	abstract class Entity {
+	public abstract class Entity {
 		// the name, transform, and collider
 		public string name { get; protected set; }
 		public Transform transform { get; private set; }

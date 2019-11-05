@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework.Content;
 
 namespace Astro {
-	class ContentLoader {
+	public class ContentLoader {
 		// Singleton 
 		private static ContentLoader Singleton { get; set; }
 
-		private readonly ContentManager contManager;
+		private ContentManager contManager;
 
 		public ContentLoader(ContentManager contentM) {
 			// set singleton
